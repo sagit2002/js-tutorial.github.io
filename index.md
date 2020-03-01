@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## Welcome to Javascript tutorial
 
-You can use the [editor on GitHub](https://github.com/sagit2002/js-tutorial.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Variables
 
-### Markdown
+Variables are used to store values 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Declaring and then initializing Variables using two statements.
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+var x;
+x = 5;
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Declaring and then initializing Variables using a single statement.
 
-### Jekyll Themes
+```markdown
+var x = 2;
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sagit2002/js-tutorial.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Re-assigning of variable value
 
-### Support or Contact
+```markdown
+var x = 5;
+x = 1;
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Variable Name Rules.
+
+1.    Could start with letters, $ or _
+2.    Should be letters, numbers, $ and _
+3.    Names are case sensitive
+4.   Do not use reserved words
+5.   Should be self explanatory
+6.   Prefer camelCase for multipleWords (instead of under_score)
+7.   Pick a naming convention and stick with it
+
+
