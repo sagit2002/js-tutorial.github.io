@@ -1,3 +1,5 @@
 theme: jekyll-theme-hacker
 “title: Welcome to the Javascript tutorial’s homepage!” 
 description: Feel free to bookmark this to keep an eye on my project updated.
+name: Bhagwant Singh, Instructor
+markdown: kramdown
